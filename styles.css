@@ -1,0 +1,113 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #3a0815;
+    color: #5c4f6b;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Container to center the content */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+    color: #d36c6c;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #9b7d9d;
+    font-style: italic;
+}
+
+/* Message Section */
+.message {
+    background: #641756;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #d36c6c;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #121015;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+/* Heart Section */
+.heart {
+    margin: 20px 0;
+}
+
+.heart-icon {
+    font-size: 80px;
+    color: #e14d5a;
+    animation: heartbeat 1s infinite;
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+    color: #5c4f6b;
+    margin-top: 30px;
+}
+
+.signature {
+    font-weight: bold;
+    color:#ccbcde
+}
+
+.car-content button {
+    background: linear-gradient(135deg, #5e1414, #c31c72);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.car-content button:hover {
+    background: linear-gradient(135deg, #d37491, #d4496e);
+    }
+
+/* Animation for Heartbeat */
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
